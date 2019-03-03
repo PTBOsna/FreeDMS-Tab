@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<ProviderDataBase xmlns="http://tempuri.org/ProviderDataBase.xsd">
+  <Provider>
+    <id>-1</id>
+    <Name>Max.Mustermann</Name>
+    <Host>pop3.meinProvider.de</Host>
+    <User>Max.Mustermannust@yxz.de</User>
+    <Password>MeinPassword</Password>
+    <Port>995</Port>
+    <SSL>true</SSL>
+  </Provider>
+</ProviderDataBase>

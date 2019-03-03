@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FreeDMS_Tab._FreeDMS_StartDBDataSet" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AB0KESCEAwocZIJADiFI0ARCAJoDQFgzgakAUQmELFw=</HashCode>
+      <FileName>_FreeDMS_StartDBDataSet.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.Ablage" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBGAIIAAIHCAoBIBAECAACACSCARABABAwEAoAAIAQA=</HashCode>
+      <FileName>Ablage.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.AboutBox1" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAgAAASAAAAAAAACEAABCgAAAAAIAAACACAAQAAA=</HashCode>
+      <FileName>AboutBox1.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.Akten" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABGCMMIAAGGEohIwAEGAEGESQAAAABIBAAERJBAAARA=</HashCode>
+      <FileName>Akten.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.Anschriften" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>8BGAoMAACGGAgJABoGCAQChKQGAAQBBBAgUgIABACQA=</HashCode>
+      <FileName>Anschriften.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.AnschriftenZuordnung" Collapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>2AMIoNgAiWUgAQIgIGiEQghOJAAAhBANIEAAAADAGAg=</HashCode>
+      <FileName>AnschriftenZuordnung.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.DBNeu" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAQADAECCIBAAAQACAAAACAAAQAABAAAAAAIAAABA=</HashCode>
+      <FileName>DBNeu.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.DocEdit" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SSLBILVREOCDg4AcMDGBIkBCDAAgcBDpAtoIBDjIAhA=</HashCode>
+      <FileName>DocEdit.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.Docliste" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBGAIbUAEHCDghIgEGGAEGDCSUAwABBpAZsKJDCogRA=</HashCode>
+      <FileName>Docliste.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.DocStatus" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wBHAIIAAEHCAgBJBAECAACAGQAAAABBBghMAIAAAAQA=</HashCode>
+      <FileName>DocStatus.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.DocTextNew" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBMIIIQAEmACAgAQECGAEEBSCIAgMBBJAJgCBDmIAAA=</HashCode>
+      <FileName>DocTextNew.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.DocTyp" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADGAIIAAEGCBgBABEECAACACQQAoABgBAsAAICADAQA=</HashCode>
+      <FileName>DocTyp.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.FolderInput" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>4DkRIJVAEXCJVUYAsDGiCEBLjEA0NBlrgJoOBzmr9wM=</HashCode>
+      <FileName>FolderInput.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.ImageToPDF" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQBRMRBBUCIAEEEBAAKgAIQiAEDAUBgJCEQBBACLEaI=</HashCode>
+      <FileName>ImageToPDF.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.Mandanten" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABGAIMkAAGCAoBEAAEGEAHACSAAQBBKBAgAAIEAAAQA=</HashCode>
+      <FileName>Mandanten.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.Notiz" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAIQDAACgEAAAEABKAAAACAAAAABgJABACBBCCAgA=</HashCode>
+      <FileName>Notiz.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.NotizListe" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJGAIQBAEHCEgBIEAEKAACBCRAAAABApABEIJJCABRA=</HashCode>
+      <FileName>NotizListe.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.NotizNeu" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAIQCCECAEAAAEABKAAABCAAEAABAJABAChJCCAgA=</HashCode>
+      <FileName>NotizNeu.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.PrintForm" Collapsed="true">
+    <Position X="14.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QABAAJUAMCACAAQAACGIAAACAQAAcAAoAZoCADCoAhI=</HashCode>
+      <FileName>PrintForm.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.ProviderDataBase" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AB0KFCCEAwocZIJADiFIwARCAJoDQFgTgKkAQAmEDFQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.ScanErgebnis" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAYABAACABEAAAAACAAAACAAAAAAgAAEABAAAAAAA=</HashCode>
+      <FileName>ScanErgebnis.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.ScanToDoc2" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gRSRYJXCFmCDlUMQUSWCCEBTnQQgVR1pA/sANDj51xA=</HashCode>
+      <FileName>ScanToDoc2.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.Settings" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iRmJIIYgGCCAgRgVGHGgAOhuREC4QBABMAFlIAhABQE=</HashCode>
+      <FileName>Settings.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.SplashScreen1" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAgAAAABACAAEAAAAACAEAACAAAACAABAgAAAAAAAAA=</HashCode>
+      <FileName>SplashScreen1.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.Start" Collapsed="true">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>yfHwt/f+XvCffc7zP/Ofb/h/7+m/u71////b/vf+/38=</HashCode>
+      <FileName>Start.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.TestForm" Collapsed="true">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABGIAGAAAGCAghAgAECAACBCQCAQABAIApEIIACAAQA=</HashCode>
+      <FileName>TestForm.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.VorgaengeArchiv" Collapsed="true">
+    <Position X="11" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADDAMcAQFGCAohIyAEKAEGFSQAgYABIRAgAMpBAIARA=</HashCode>
+      <FileName>VorgaengeArchiv.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.Vorganege" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADHAMcAAEGCEohIyAEKAEGNSQAgQABIBAgAJpBAIARA=</HashCode>
+      <FileName>Vorganege.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.Vorlagen" Collapsed="true">
+    <Position X="2.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABGIAIUAEHKAgBMBEXGAAHBCSAgAABFkKwMQpjASpTA=</HashCode>
+      <FileName>Vorlagen.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.WiedervorlageListe" Collapsed="true">
+    <Position X="7.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABGAIIEBGHCAgBoAAEGAAGJCZCCAABApAIAKJBCEgRA=</HashCode>
+      <FileName>WiedervorlageListe.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.WiedervorlageNeu" Collapsed="true">
+    <Position X="9.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAQIgAGHCAIBoAAAGAAkBDACAAABAIQAACBBCAggA=</HashCode>
+      <FileName>WiedervorlageNeu.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.AblageTableAdapter" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.AktenTableAdapter" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.AnlagenTableAdapter" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.AnschriftAltTableAdapter" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.AnschriftenTableAdapter" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.DokArtTableAdapter" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.DokumenteTableAdapter" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.MandantTableAdapter" Collapsed="true">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.notizTableAdapter" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.StatusTableAdapter" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.TypTableAdapter" Collapsed="true">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.VorgaengeTableAdapter" Collapsed="true">
+    <Position X="12.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.VorlagenTableAdapter" Collapsed="true">
+    <Position X="5.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.wiedervorlageTableAdapter" Collapsed="true">
+    <Position X="11" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.DokumenteSQLTableAdapter" Collapsed="true">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.MandantAkteVorgangTableAdapter" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.sqlVorgangAkteTableAdapter" Collapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.AnlagenSQLTableAdapter" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAICEAASBAFAEJAAAYMEFiCEgiiYBAAAQABACEjAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.My.MyApplication" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.My.MySettings" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAQCABEAAAAABAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.ProviderDataBaseTableAdapters.AblageTableAdapter" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.ProviderDataBaseTableAdapters.AktenTableAdapter" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.ProviderDataBaseTableAdapters.AnlagenTableAdapter" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.ProviderDataBaseTableAdapters.AnschriftAltTableAdapter" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.ProviderDataBaseTableAdapters.AnschriftenTableAdapter" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.ProviderDataBaseTableAdapters.DokArtTableAdapter" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.ProviderDataBaseTableAdapters.DokumenteTableAdapter" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.ProviderDataBaseTableAdapters.MandantTableAdapter" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.ProviderDataBaseTableAdapters.notizTableAdapter" Collapsed="true">
+    <Position X="12.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.ProviderDataBaseTableAdapters.StatusTableAdapter" Collapsed="true">
+    <Position X="14.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.ProviderDataBaseTableAdapters.TypTableAdapter" Collapsed="true">
+    <Position X="9.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.ProviderDataBaseTableAdapters.VorgaengeTableAdapter" Collapsed="true">
+    <Position X="14.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.ProviderDataBaseTableAdapters.VorlagenTableAdapter" Collapsed="true">
+    <Position X="4" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.ProviderDataBaseTableAdapters.wiedervorlageTableAdapter" Collapsed="true">
+    <Position X="12.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.ProviderDataBaseTableAdapters.AnlagenSQLTableAdapter" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.ProviderDataBaseTableAdapters.DokumenteSQLTableAdapter" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.ProviderDataBaseTableAdapters.MandantAkteVorgangTableAdapter" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.ProviderDataBaseTableAdapters.sqlVorgangAkteTableAdapter" Collapsed="true">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeDMS_Tab.ProviderDataBaseTableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAICEAASBAFAEJAAAYMEFiCEgiiYBAAAQABACEjAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Module Name="FreeDMS_Tab.My.MySettingsProperty" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="FreeDMS_Tab.My.Resources.Resources" Collapsed="true">
+    <Position X="2.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

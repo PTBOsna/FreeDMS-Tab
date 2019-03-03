@@ -1,0 +1,122 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FreeDMS-Aux
+</name>
+</assembly>
+<members>
+<member name="T:FreeDMS_Aux.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:FreeDMS_Aux.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:FreeDMS_Aux.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:FreeDMS_Aux.FreeDMS.GrundDaten">
+ <summary>
+ Übergreifende Variablen
+ </summary>
+</member>
+<member name="M:FreeDMS_Aux.FreeDMS.GrundDaten.XMLWriter">
+ <summary>
+ Datembank.xml-Wreiter
+ Schreibt datenbankrelevante Parameter in dbName.xml
+ </summary>
+</member>
+<member name="M:FreeDMS_Aux.FreeDMS.GrundDaten.XMLReader">
+ <summary>
+ List die mit xmlWriter geschriebenen Daten aus und überträgt sie ggf. in die Settings
+ </summary>
+</member>
+<member name="M:FreeDMS_Aux.FreeDMS.GrundDaten.TxtReader">
+ <summary>
+ Liest die FreeDMS.ini mit dem aktuellen DB-Namen
+ Wird in CurrDB gespeichert
+ </summary>
+</member>
+<member name="M:FreeDMS_Aux.FreeDMS.GrundDaten.TxtWriter">
+ <summary>
+ Schreibt den aktuellen DB-Namen (CurrDB) in die FreeDMS.ini
+ </summary>
+</member>
+<member name="M:FreeDMS_Aux.FreeDMS.GrundDaten.ChkSettings">
+ <summary>
+ Überprüfen der Settings und Eintrag in die entsprechenden globalen Variablen
+ </summary>
+</member>
+<member name="T:FreeDMS_Aux.FreeDMS.Aux">
+ <summary>
+ Hilfsfunktionen und -Sub's
+ </summary>
+</member>
+<member name="M:FreeDMS_Aux.FreeDMS.Aux.IsFileInUse(System.String)">
+ <summary>
+ Prüfen, ob File geöffnet
+ </summary>
+ <param name="fullFilePath"></param>
+ <returns></returns>
+</member>
+<member name="M:FreeDMS_Aux.FreeDMS.Aux.CreateOCR(System.Collections.Generic.List{System.Drawing.Bitmap})">
+ <summary>
+ Text aus Image (OCR)
+ Nutzt Tesseract. Erforderlich der dataPath mit Speicherort des Ordners tessdata mit den OCR-Dateeien
+ </summary>
+ <param name="imgList"></param>
+ <returns>ergeb=Array mit OCR-Text und Confidence</returns>
+</member>
+<member name="M:FreeDMS_Aux.FreeDMS.Aux.ConvertImageToPdf(System.Collections.Generic.List{System.Drawing.Bitmap},System.String)">
+ <summary>
+ Convertiert Image nach PDF
+ Es muss eine list(of Bitmap) als scrImgList übergeben werden.
+ Als Ergebnis wird ein (Multipage)PDF erzeugt und unter destFilname gespeichert
+ destFileName muss Pfad und Name enthalten
+ </summary>
+ <param name="srcImgList"></param>
+ <param name="dstFilename"></param>
+ <returns></returns>
+</member>
+<member name="M:FreeDMS_Aux.FreeDMS.Aux.MaxID(System.String)">
+ <summary>
+ Erwartet aktuellen DB-Namen und gibt die Max ID von Dokumente zurück
+ </summary>
+ <param name="actDB"></param>
+ <returns></returns>
+</member>
+<member name="M:FreeDMS_Aux.FreeDMS.Aux.NewMethod">
+ <summary>
+ Legt cmd als neuen OleDbCommand fest
+ </summary>
+ <returns>cmd</returns>
+</member>
+<member name="M:FreeDMS_Aux.FreeDMS.Aux.ReadFile(System.String)">
+ <summary>
+ Textfile lesen
+ Erwartet DokNmae mit Pfad
+ </summary>
+ <param name="sDok"></param>
+ <returns>s als String</returns>
+</member>
+<member name="T:FreeDMS_Aux.FreeDMS.DbHandling">
+ <summary>
+ Variablen, Funktionen und Sub's für das DB-Handling
+ </summary>
+</member>
+<member name="M:FreeDMS_Aux.FreeDMS.DbHandling.LoadDB(System.String)">
+ <summary>
+ DB laden
+ vollständiger Dateiname als Input erwartet
+ </summary>
+ <param name="sName"></param>
+</member>
+</members>
+</doc>

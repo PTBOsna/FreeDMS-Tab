@@ -1,0 +1,1633 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FreeDMS-Tab
+</name>
+</assembly>
+<members>
+<member name="T:FreeDMS_Tab.My.Resources.Resources">
+<summary>
+  Eine stark typisierte Ressourcenklasse zum Suchen von lokalisierten Zeichenfolgen usw.
+</summary>
+</member>
+<member name="P:FreeDMS_Tab.My.Resources.Resources.ResourceManager">
+<summary>
+  Gibt die zwischengespeicherte ResourceManager-Instanz zurück, die von dieser Klasse verwendet wird.
+</summary>
+</member>
+<member name="P:FreeDMS_Tab.My.Resources.Resources.Culture">
+<summary>
+  Überschreibt die CurrentUICulture-Eigenschaft des aktuellen Threads für alle
+  Ressourcenzuordnungen, die diese stark typisierte Ressourcenklasse verwenden.
+</summary>
+</member>
+<member name="P:FreeDMS_Tab.My.Resources.Resources.FreeDMS_Logo">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:FreeDMS_Tab.Ablage.AblageBindingNavigatorSaveItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ Speichern und Abfrage wegen ID
+ Hier ist im Gegensatz zu allen anderen Tabellen die ID keine AutoIncriment!
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.Ablage.Ablage_Load(System.Object,System.EventArgs)">
+ <summary>
+ Formular load
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.Ablage.BtClose_Click(System.Object,System.EventArgs)">
+ <summary>
+ Fomrular Close
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.Anschriften.InternetTextBox_TextChanged(System.Object,System.EventArgs)">
+ <summary>
+ Link der Internetadresse aus Internet-TextBox erstellen
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.Anschriften.LinkLabel1_LinkClicked(System.Object,System.Windows.Forms.LinkLabelLinkClickedEventArgs)">
+ <summary>
+ ufruf/Anzeige der ggf. vorhandenen Intnetadresse
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.DocEdit.#ctor(System.String)">
+ <summary>
+ Parameterübergabe mit OpenArgs
+ </summary>
+ <param name="openArgs"></param>
+</member>
+<member name="M:FreeDMS_Tab.DocEdit.EditGrunddaten_Load(System.Object,System.EventArgs)">
+ <summary>
+ Fomular laden und TableAdapter füllen
+ Grundeinstellungen
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.DocEdit.ShowDok(System.String)">
+ <summary>
+ Original Dokument anzeigen
+ </summary>
+ <param name="sDokument"></param>
+</member>
+<member name="M:FreeDMS_Tab.DocEdit.Button2_Click(System.Object,System.EventArgs)">
+ <summary>
+ Form schließen
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.DocEdit.Button1_Click(System.Object,System.EventArgs)">
+ <summary>
+ Änderungen speichern
+ Aktuelle Einträge für Anzeige im Hauptformular speichern
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.DocEdit.BtShow_Click(System.Object,System.EventArgs)">
+ <summary>
+ Dokument mit seiner Anwendung starten
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.DocEdit.DateTimePicker1_ValueChanged(System.Object,System.EventArgs)">
+ <summary>
+ Aktuellen DokDatum übernehmen
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.DocEdit.DateTimePicker2_ValueChanged(System.Object,System.EventArgs)">
+ <summary>
+ Aktuelles Aufnahmedatum übernehmen
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.DocEdit.DateTimePicker3_ValueChanged(System.Object,System.EventArgs)">
+ <summary>
+ Aktuelles Änderungsdatum übernehmen
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.DocEdit.CbMandant_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ Mandant übernehmen/ändern
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.DocEdit.CbAkte_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ Akte übernehmen/ändern
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.DocEdit.CbVorgang_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ Vorgang übernehmen/Ändern
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.ImageToPDF.Form1_Load(System.Object,System.EventArgs)">
+ <summary>
+ Form starten, 
+ ListView füllen
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.ImageToPDF.LoadFileDiolog(System.String@)">
+ <summary>
+ FileDialog zur Dateiauswahl
+ Enthält Filter und das StartDir wird übergeben.
+ Ergebnis ist eine Liste von Files (FileList) zur weiteren Verarbeitung
+ </summary>
+ <param name="initDir"></param>
+</member>
+<member name="M:FreeDMS_Tab.ImageToPDF.Button1_Click(System.Object,System.EventArgs)">
+ <summary>
+ Auswahl Erzeugung PDF mit Texterkennung
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.ImageToPDF.BackgroundWorker1_DoWork(System.Object,System.ComponentModel.DoWorkEventArgs)">
+ <summary>
+ Start des Backgroundworkers
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.ImageToPDF.BackgroundWorker1_ProgressChanged(System.Object,System.ComponentModel.ProgressChangedEventArgs)">
+ <summary>
+ Backgroundworker Änderungen (Meldung, das gearbeitet wird)
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.ImageToPDF.BackgroundWorker1_RunWorkerCompleted(System.Object,System.ComponentModel.RunWorkerCompletedEventArgs)">
+ <summary>
+ Backgroundworker beendet
+ Ergebnisse werden angezeigt
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.ImageToPDF.ShowMsg">
+ <summary>
+ In Arbeit-Anzeige des Backgroundworkers
+ </summary>
+</member>
+<member name="M:FreeDMS_Tab.ImageToPDF.HideMsg">
+ <summary>
+ Arbeit beendet Anzeige des Beckgroundworkers
+ </summary>
+</member>
+<member name="M:FreeDMS_Tab.ImageToPDF.DoImageToFile">
+ <summary>
+ Aufruf ConvertImageToPDF und CrateOCR aus Klasse FreeDMS_Aux AUX
+ Input ist die FileList
+ Ergebnisdarstellung im Form
+ </summary>
+</member>
+<member name="M:FreeDMS_Tab.ImageToPDF.BtArchiv_Click(System.Object,System.EventArgs)">
+ <summary>
+ Aufruf FileDialog mit Dir-Vorwahl Archiv
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.ImageToPDF.BtAlles_Click(System.Object,System.EventArgs)">
+ <summary>
+ Aufruf FileDialog mit Dir-Vorwahl Dokumenten-Ordner
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.ImageToPDF.ListBox1_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ Listbox zur Prüfung, ob ausgewählte Dateien ok sind
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.ImageToPDF.BtToPDF_Click(System.Object,System.EventArgs)">
+ <summary>
+ Aufruf Dokument nach PDF ohne Texterkennung (OCR)
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.ImageToPDF.ChangeDokument(System.String,System.String,System.Single)">
+ <summary>
+ Änderungen (OCR-Text und neuer DokName) in DokumentBindingSource einfügen
+ und  Liste newNameList füllen
+ </summary>
+ <param name="DokName"></param>
+ <param name="ocr"></param>
+ <param name="conf"></param>
+</member>
+<member name="M:FreeDMS_Tab.ImageToPDF.BtCancel_Click(System.Object,System.EventArgs)">
+ <summary>
+ Zurück ohne speichern
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.ImageToPDF.BtSave_Click(System.Object,System.EventArgs)">
+ <summary>
+ Zurück und speichern der Änderungen
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.ImageToPDF.CheckBox1_CheckedChanged(System.Object,System.EventArgs)">
+ <summary>
+ Abfrage, ob die Quelldatei nach Umwandlung in PDF gelöscht werden soll
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.NotizNeu.NoteNew_Load(System.Object,System.EventArgs)">
+ <summary>
+ Form NoteNew aufrufen, TableAdapter füllen
+ Voreinstellungen
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.NotizNeu.NotizBindingNavigatorSaveItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ Datensatz prüffen und speichern
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.PrintForm.#ctor(System.String)">
+ <summary>
+ OpenArgs
+ </summary>
+ <param name="openArgs"></param>
+</member>
+<member name="M:FreeDMS_Tab.PrintForm.Drucken_Load(System.Object,System.EventArgs)">
+ <summary>
+ Form Load mit TableAdapter Connection und Fill
+ sowie Voreinstellungen
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.PrintForm.Button1_Click(System.Object,System.EventArgs)">
+ <summary>
+ Auslösen des Druckereignisses
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.PrintForm.FormPrint">
+ <summary>
+ Druckereignis
+ </summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.AblageDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.AktenDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.AnlagenDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.AnschriftAltDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.AnschriftenDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.DokArtDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.DokumenteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.MandantDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.notizDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.StatusDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.TypDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.VorgaengeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.VorlagenDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.wiedervorlageDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.AnlagenSQLDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.DokumenteSQLDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.MandantAkteVorgangDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.sqlVorgangAkteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.ProviderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.AblageRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.AktenRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.AnlagenRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.AnschriftAltRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.AnschriftenRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.DokArtRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.DokumenteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.MandantRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.notizRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.StatusRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.TypRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.VorgaengeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.VorlagenRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.wiedervorlageRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.AnlagenSQLRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.DokumenteSQLRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.MandantAkteVorgangRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.sqlVorgangAkteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.ProviderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.AblageRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.AktenRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.AnlagenRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.AnschriftAltRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.AnschriftenRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.DokArtRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.DokumenteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.MandantRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.notizRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.StatusRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.TypRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.VorgaengeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.VorlagenRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.wiedervorlageRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.AnlagenSQLRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.DokumenteSQLRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.MandantAkteVorgangRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.sqlVorgangAkteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBase.ProviderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBaseTableAdapters.AblageTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBaseTableAdapters.AktenTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBaseTableAdapters.AnlagenTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBaseTableAdapters.AnschriftAltTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBaseTableAdapters.AnschriftenTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBaseTableAdapters.DokArtTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBaseTableAdapters.DokumenteTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBaseTableAdapters.MandantTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBaseTableAdapters.notizTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBaseTableAdapters.StatusTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBaseTableAdapters.TypTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBaseTableAdapters.VorgaengeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBaseTableAdapters.VorlagenTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBaseTableAdapters.wiedervorlageTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBaseTableAdapters.AnlagenSQLTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBaseTableAdapters.DokumenteSQLTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBaseTableAdapters.MandantAkteVorgangTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBaseTableAdapters.sqlVorgangAkteTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBaseTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:FreeDMS_Tab.ProviderDataBaseTableAdapters.TableAdapterManager.UpdateUpdatedRows(FreeDMS_Tab.ProviderDataBase,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:FreeDMS_Tab.ProviderDataBaseTableAdapters.TableAdapterManager.UpdateInsertedRows(FreeDMS_Tab.ProviderDataBase,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:FreeDMS_Tab.ProviderDataBaseTableAdapters.TableAdapterManager.UpdateDeletedRows(FreeDMS_Tab.ProviderDataBase,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:FreeDMS_Tab.ProviderDataBaseTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:FreeDMS_Tab.ProviderDataBaseTableAdapters.TableAdapterManager.UpdateAll(FreeDMS_Tab.ProviderDataBase)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBaseTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:FreeDMS_Tab.ProviderDataBaseTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="M:FreeDMS_Tab.ScanToDoc2.Button1_Click(System.Object,System.EventArgs)">
+ <summary>
+ Scan-Dialog aufrufen
+ Dokument wenn vorhanden um Zähler erhöhen
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.ScanToDoc2.GetFiles">
+ <summary>
+ Twain Aufruf
+ </summary>
+</member>
+<member name="M:FreeDMS_Tab.ScanToDoc2.AcquireCompletedEventHandler(System.Object,System.EventArgs)">
+ <summary>
+ Scann beendet
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.ScanToDoc2.RunOCR">
+ <summary>
+ OCR durchführen 
+ </summary>
+</member>
+<member name="M:FreeDMS_Tab.ScanToDoc2._SetImage">
+ <summary>
+ Scann-Ergebmos anzeigen
+ Vorbereitung für weitere Verarbeitung
+ </summary>
+</member>
+<member name="M:FreeDMS_Tab.ScanToDoc2.btClose_Click(System.Object,System.EventArgs)">
+ <summary>
+ Form schließen
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.ScanToDoc2.ScanToDoc2_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)">
+ <summary>
+ Form schließen per FormMenü (Kreuz)
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.ScanToDoc2.Clear">
+ <summary>
+ Twain zurücksetzen
+ </summary>
+</member>
+<member name="M:FreeDMS_Tab.ScanToDoc2.btFor_Click(System.Object,System.EventArgs)">
+ <summary>
+ Navigation Vorschau, vor
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.ScanToDoc2.btBack_Click(System.Object,System.EventArgs)">
+ <summary>
+ Navigation Vorschau zurück
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.ScanToDoc2.checkCounter(System.Int32)">
+ <summary>
+ Zähler für Navigation setzen
+ </summary>
+ <param name="i"></param>
+</member>
+<member name="M:FreeDMS_Tab.ScanToDoc2.BtPDF_OCR_Click(System.Object,System.EventArgs)">
+ <summary>
+ Aufruf für OCR-Durchführung
+ Start mit Backgroundworker
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.ScanToDoc2.BtPDF_Click(System.Object,System.EventArgs)">
+ <summary>
+ Start PDF ohne Texterkennung übernehmen
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.ScanToDoc2.BackgroundWorker1_DoWork(System.Object,System.ComponentModel.DoWorkEventArgs)">
+ <summary>
+ Backgroundworker start OCR 
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.ScanToDoc2.BackgroundWorker1_RunWorkerCompleted(System.Object,System.ComponentModel.RunWorkerCompletedEventArgs)">
+ <summary>
+ Backgroundworker beendet
+ Anzeige der Ergebnisse
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.ScanToDoc2.FileInhalt">
+ <summary>
+ Vorbereitung Datensatz aufnehmen
+ </summary>
+</member>
+<member name="M:FreeDMS_Tab.ScanToDoc2.AutoZuordnung(System.String)">
+ <summary>
+ Autozurodung durchführen
+ Halbautomatische Zuordnung entsprechen der Inhalte von "Vorlagen"
+ </summary>
+ <param name="sString"></param>
+</member>
+<member name="M:FreeDMS_Tab.ScanToDoc2.ClearText">
+ <summary>
+ Felder leeren und voreinstellen
+ </summary>
+</member>
+<member name="M:FreeDMS_Tab.ScanToDoc2.FdErstelltDateTimePicker_ValueChanged(System.Object,System.EventArgs)">
+ <summary>
+ DokDateum Textbox mit DateTimePicker füllen
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.ScanToDoc2.CbMandant_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ Feld Mandant aus Cobmbobox füllen
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.ScanToDoc2.CbAkteNeu_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ Feld Akte aus ComboBox füllen
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.ScanToDoc2.CbVorgang_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ Feld Vorgang aus Combobox füllen
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.ScanToDoc2.CbAblage_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ Feld Ablage aus Combobox füllen
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.ScanToDoc2.CbTyp_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ Feld Typ aus Combobox füllen
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.ScanToDoc2.CbStatus_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ Feld Status aus Combobox füllen
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.ScanToDoc2.ComboBoxNamen_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ Feld Absender aus Combobox füllen
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.ScanToDoc2.CbEmpfaenger_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ Feld Empfänger aus Combobox füllen
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.ScanToDoc2.SaveDoc">
+ <summary>
+ Speichern mit vorheriger Abfrage ob relevante Felder gefüllt sind
+ </summary>
+</member>
+<member name="M:FreeDMS_Tab.ScanToDoc2.FillDokInhalt">
+ <summary>
+ Klasse DokumentData füllen
+ Ist für ggf. weitere Zuordnung  erforderlich
+ </summary>
+</member>
+<member name="M:FreeDMS_Tab.ScanToDoc2.btWeiterZuordnung_Click(System.Object,System.EventArgs)">
+ <summary>
+ Weitere Zuordnung ausläsen
+ Datem werdem in einem weiteren Datensatz gespeichert,
+ das Dokument mit DokName bleibt gleich
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.ScanToDoc2.MsgFilledField(System.String)">
+ <summary>
+ Fehleranzeige von SaveDoc
+ </summary>
+ <param name="field"></param>
+</member>
+<member name="M:FreeDMS_Tab.Settings.Settings_Load(System.Object,System.EventArgs)">
+ <summary>
+ Form laden und TableAdapter füllen
+ Maildaten (Provider, Name usw) laden aus
+ Aktuelle Datenbank laden
+ Voreinstellungen für Dateipfade laden/ändern
+ Voreinstellungen Mandant, Absender laden/ändern
+ Voreinstellung ob Outlook als Mail mit verwendet wird
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.Settings.LoadProvider">
+ <summary>
+ Providerdaten auslesen aus xml
+ </summary>
+</member>
+<member name="M:FreeDMS_Tab.Settings.Button1_Click(System.Object,System.EventArgs)">
+ <summary>
+ Änderungen speichern und Form schließen
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.Settings.CheckOrdner(System.String,System.String)">
+ <summary>
+ Eingestelle Ordner prüfen
+ </summary>
+ <param name="setting"></param>
+ <param name="ordner"></param>
+ <returns></returns>
+</member>
+<member name="M:FreeDMS_Tab.Settings.BtArchiv_Click(System.Object,System.EventArgs)">
+ <summary>
+ FolderDialog für Archiv-Ordner wählen
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.Settings.BtScanInput_Click(System.Object,System.EventArgs)">
+ <summary>
+ FolderDialog für ScanInput-Ornder wählen
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.Settings.CbOutlook_CheckedChanged(System.Object,System.EventArgs)">
+ <summary>
+ Outlook Eingangs und Archiv-Ordner (in Outlook!!) festlegen
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="T:FreeDMS_Tab.Start">
+ <summary>
+ Klasse Hauptseite
+ </summary>
+</member>
+<member name="T:FreeDMS_Tab.Start.DocData">
+ <summary>
+ DocDate zum Zwischenspeichern der aktuellen Werte Mandant, Akte, Vorgang und Dokument
+ </summary>
+</member>
+<member name="M:FreeDMS_Tab.Start.Start_Load(System.Object,System.EventArgs)">
+ <summary>
+ Form Start
+ Hauptformular laden
+ Vorbereiten und Prüfen der Settings
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.Start.LoadAll">
+ <summary>
+ Tabeladapter füllen
+ Wiedervorlage prüfen
+ </summary>
+</member>
+<member name="M:FreeDMS_Tab.Start.SaveAll">
+ <summary>
+ Alle BindingSources beenden und Update der TableAdapter
+ </summary>
+</member>
+<member name="M:FreeDMS_Tab.Start.SetLastDGVRow">
+ <summary>
+ DataGridViews auf letzze Zeile setzen
+ </summary>
+</member>
+<member name="M:FreeDMS_Tab.Start.TabControl1_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ Seitenauswahl per Tab
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.Start.LoadLvDok(System.Windows.Forms.ListView@)">
+ <summary>
+ Das mit lv festgelegte ListView füllen
+ </summary>
+ <param name="lv"></param>
+</member>
+<member name="M:FreeDMS_Tab.Start.RBAkten_CheckedChanged(System.Object,System.EventArgs)">
+ <summary>
+ Bedingungen zum Füllen des TreeViews
+ Alles Anzeigen, archivierte Akten oder - Ordner anzeigen
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.Start.FillTreeView">
+ <summary>
+ TreeView Mandant-Akte-Vorgang füllen
+ </summary>
+</member>
+<member name="M:FreeDMS_Tab.Start.TreeView1_AfterSelect(System.Object,System.Windows.Forms.TreeViewEventArgs)">
+ <summary>
+ Die mit TreeView ausgewälten Daten anzeigen
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.Start.GetMandantAkteVorgang">
+ <summary>
+ Syncronisation von Mandant-Akte-Vorgang
+ </summary>
+</member>
+<member name="M:FreeDMS_Tab.Start.FindTreeNode(System.String)">
+ <summary>
+ Festlegen des Starpunktes für TreeView
+ Ermitteln des aktuellen Knotens im TreeView
+ </summary>
+ <param name="az"></param>
+</member>
+<member name="M:FreeDMS_Tab.Start.SetCurrDoc">
+ <summary>
+ DataGridView Dokumente auf aktuelles Dok setzen
+ </summary>
+</member>
+<member name="M:FreeDMS_Tab.Start.SelectDB(System.String)">
+ <summary>
+ DB auswählen
+ wird aus Menü Datei - Öffnen aufgerufen
+ </summary>
+ <param name="dbName"></param>
+</member>
+<member name="M:FreeDMS_Tab.Start.DokumenteDataGridView_CellClick(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+ <summary>
+ Aufruf Detailansicht Dokumente aus DokumenteDataGridView
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.Start.DBAuswahl">
+ <summary>
+ DateiDialog zu Datenbank-Auswahl
+ Voreingestellt ist der Bestandteil "FreeDMS" und die Dateiendung "mdb"
+ </summary>
+</member>
+<member name="M:FreeDMS_Tab.Start.BtWiedervorlage_Click(System.Object,System.EventArgs)">
+ <summary>
+ Neue Wiedervorlage erstellen
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.Start.ChkTbl(System.Int32,System.Int32,System.Int32)">
+ <summary>
+ Testen, ob  die Tabellen "Akten", "Vorgänge" oder "Dokumente" Verweise auf den zu löschenden Eintrag enthalten. 
+ Die ID der Verknüpfung ist einzugeben. Eintrag 0 überspringt die Tabelle. Es wird nur ein Wert zurückgegeben!
+ Zum Beispiel testet ChkTbl(21,0,0) ob in der TAbelle "Akten" Verweise auf Mandanten mit der ID 21 enthalten. Wenn ja, kann der Mandant
+ 21 nicht gelöscht werden, ohne dass Verweise in "Akten" leer laufen (Referentielle Integrität)
+ </summary>
+ <param name="mandant"></param>
+ <param name="akte"></param>
+ <param name="vorgang"></param>
+ <returns></returns>
+</member>
+<member name="M:FreeDMS_Tab.Start.LvScaninput_DoubleClick(System.Object,System.EventArgs)">
+ <summary>
+ Dokument in Listview ScanInput mit zugehöriger Anwendung öffnen
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.Start.LöschenToolStripMenuItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ Dokument in ListView ScanInput löschen
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.Start.BtClear_Click(System.Object,System.EventArgs)">
+ <summary>
+ Schnellsuche zurücksetzen - Aufruf
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.Start.ClearSearch">
+ <summary>
+ Schnellsuche zurücksetzen
+ </summary>
+</member>
+<member name="M:FreeDMS_Tab.Start.BtSearcj_Click(System.Object,System.EventArgs)">
+ <summary>
+ Flags für Schnellsuche einstellen
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.Start.SucheLos">
+ <summary>
+ Schnellsuche durchführen
+ </summary>
+</member>
+<member name="M:FreeDMS_Tab.Start.DisplayErgebnis(System.Int32,System.String)">
+ <summary>
+ Ergebnis der Schnellsuche anzeigen
+ </summary>
+ <param name="iErgebnis"></param>
+ <param name="Text"></param>
+</member>
+<member name="M:FreeDMS_Tab.Start.ToolStripButton3_Click(System.Object,System.EventArgs)">
+ <summary>
+ Suche heute vorbereiten
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.Start.TXT2ListOfString(System.String)">
+ <summary>
+ Mailtext in ListOfString laden
+ </summary>
+ <param name="FullPath"></param>
+ <returns>lst</returns>
+</member>
+<member name="M:FreeDMS_Tab.Start.ListOfString2TXT(System.String,System.Collections.Generic.List{System.String})">
+ <summary>
+ List of String zu MailText
+ </summary>
+ <param name="FullPath"></param>
+ <param name="lst"></param>
+ <returns>True</returns>
+</member>
+<member name="M:FreeDMS_Tab.Start.MoveMail">
+ <summary>
+ Mail in den Input-Ordner verschieben
+ ListView ScanInput und ScanInputSave aktualisieren
+ </summary>
+</member>
+<member name="M:FreeDMS_Tab.Start.DelChr(System.String)">
+ <summary>
+ Hilfsfunktion umd unerlaubte Zeichen aus Dateinamen zu entfernen
+ </summary>
+ <param name="strSource"></param>
+ <returns>strTmp -> bereinigter Dateiname</returns>
+</member>
+<member name="M:FreeDMS_Tab.Start.MailSpeichernToolStripMenuItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ FileDialog um Mails außerhalb von FreeDMS zu speichern
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.Start.AnsehenToolStripMenuItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ Aufruf von Anlagen anzeigen
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.Start.ShowAttachment">
+ <summary>
+ Anlagen anzeigen
+ </summary>
+</member>
+<member name="M:FreeDMS_Tab.Start.NachScanInputKopierenToolStripMenuItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ Kopieren der Mail in den ScanInput-Ordner
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FreeDMS_Tab.Start.ToolStripMenuItem1_Click(System.Object,System.EventArgs)">
+ <summary>
+ SaveFileDialog um Anhänge außerhalb von FreeDMS zu speichern
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.AblageDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.AnlagenDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.AnschriftAltDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.AnschriftenDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.DokArtDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.DokumenteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.MandantDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.notizDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.StatusDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.TypDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.VorgaengeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.VorlagenDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.wiedervorlageDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.DokumenteSQLDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.MandantAkteVorgangDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.sqlVorgangAkteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.AnlagenSQLDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.AktenDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.AblageRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.AnlagenRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.AnschriftAltRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.AnschriftenRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.DokArtRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.DokumenteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.MandantRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.notizRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.StatusRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.TypRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.VorgaengeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.VorlagenRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.wiedervorlageRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.DokumenteSQLRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.MandantAkteVorgangRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.sqlVorgangAkteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.AnlagenSQLRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.AktenRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.AblageRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.AnlagenRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.AnschriftAltRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.AnschriftenRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.DokArtRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.DokumenteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.MandantRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.notizRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.StatusRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.TypRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.VorgaengeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.VorlagenRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.wiedervorlageRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.DokumenteSQLRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.MandantAkteVorgangRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.sqlVorgangAkteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.AnlagenSQLRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSet.AktenRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.AblageTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.AnlagenTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.AnschriftAltTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.AnschriftenTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.DokArtTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.DokumenteTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.MandantTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.notizTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.StatusTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.TypTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.VorgaengeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.VorlagenTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.wiedervorlageTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.DokumenteSQLTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.MandantAkteVorgangTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.sqlVorgangAkteTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.AnlagenSQLTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.AktenTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(FreeDMS_Tab._FreeDMS_StartDBDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(FreeDMS_Tab._FreeDMS_StartDBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(FreeDMS_Tab._FreeDMS_StartDBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.TableAdapterManager.UpdateAll(FreeDMS_Tab._FreeDMS_StartDBDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,53 @@
+
+ D:\Program Files (x86)\Ing.-Büro PTBBerlin\FreeDMS-                                     Montag, 9. Juli 2018
+ Tabelle: Dokumente                                                                                  Seite: 1
+
+
+
+
+Spalten
+         Name                                                    Typ                        Größe
+
+
+         id                                                      Long Integer                             4
+         Mandant                                                 Long Integer                             4
+
+         Akte                                                    Long Integer                             4
+
+         Vorgang                                                 Long Integer                             4
+
+         Dokument                                                Text                                   255
+
+         Betreff                                                 Text                                   255
+         Betrag                                                  Währung                                  8
+
+         Anlagen                                                 Text                                   255
+
+         Absender                                                Long Integer                             4
+
+         Empfaenger                                              Long Integer                             4
+         DokDatum                                                Datum/Uhrzeit                            8
+
+         Aufgenommen                                             Datum/Uhrzeit                            8
+
+         Geaendert                                               Datum/Uhrzeit                            8
+
+         Kommentar                                               Memo                                     -
+         InhaltOCR                                               Memo                                     -
+
+         Ablage                                                  Long Integer                             4
+
+         Typ                                                     Long Integer                             4
+
+         Status                                                  Long Integer                             4
+         DokName                                                 Text                                   255
+
+         istAnlage                                               Ja/Nein                                  1
+
+         AnlagenID                                               Text                                   255
+
+         BearbVermerk                                            Text                                   255
+         EmpfaengerAlt                                           Text                                   255
+
+         temp                                                    Long Integer                             4
+

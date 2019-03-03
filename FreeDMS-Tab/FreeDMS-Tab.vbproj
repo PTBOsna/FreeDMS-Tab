@@ -1,0 +1,571 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B4CBCBEC-45A5-4E05-BB7E-6EA73BB8759A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>FreeDMS_Tab.My.MyApplication</StartupObject>
+    <RootNamespace>FreeDMS_Tab</RootNamespace>
+    <AssemblyName>FreeDMS-Tab</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\Users\peter\Downloads\freeDMS-Tab\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Background</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>true</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <SupportUrl>http://www.ing-buero-ptb-berlin.de/</SupportUrl>
+    <ProductName>FreeDMS-Tab</ProductName>
+    <PublisherName>Ing.-Büro PTBBerlin</PublisherName>
+    <SuiteName>Ing.-Büro PTBBerlin</SuiteName>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.01.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>FreeDMS-Tab.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>FreeDMS-Tab.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>25A9F7568E1E5690BBBEDB60810B17593A6A6C03</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>FreeDMS-Tab_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\FreeDMS_Logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp, Version=5.5.13.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\VisualBasic.PowerPacks.Vs.1.0.0\lib\Microsoft.VisualBasic.PowerPacks.Vs.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenPop, Version=2.0.6.1120, Culture=neutral, PublicKeyToken=6bdb97f144b7efc8, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenPop.NET.2.0.6.1120\lib\net40\OpenPop.dll</HintPath>
+    </Reference>
+    <Reference Include="Saraff.Twain, Version=1.0.27.606, Culture=neutral, PublicKeyToken=467d7c56f22cafb6, processorArchitecture=MSIL">
+      <HintPath>..\packages\Saraff.Twain.1.0.27.606\lib\net40\Saraff.Twain.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="TiffCP">
+      <HintPath>D:\Users\peter\Downloads\libtiff.net_bin-2.4.560.0\TiffCP.exe</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ablage.Designer.vb">
+      <DependentUpon>Ablage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ablage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox1.Designer.vb">
+      <DependentUpon>AboutBox1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutBox1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AkteEdit.Designer.vb">
+      <DependentUpon>AkteEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AkteEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Akten.Designer.vb">
+      <DependentUpon>Akten.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Akten.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Anschriften.Designer.vb">
+      <DependentUpon>Anschriften.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Anschriften.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnschriftenZuordnung.Designer.vb">
+      <DependentUpon>AnschriftenZuordnung.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AnschriftenZuordnung.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnschriftNeu.Designer.vb">
+      <DependentUpon>AnschriftNeu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AnschriftNeu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DBNeu.Designer.vb">
+      <DependentUpon>DBNeu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DBNeu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocEdit.Designer.vb">
+      <DependentUpon>DocEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DocEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Docliste.Designer.vb">
+      <DependentUpon>Docliste.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Docliste.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocStatus.Designer.vb">
+      <DependentUpon>DocStatus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DocStatus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocTextNew.Designer.vb">
+      <DependentUpon>DocTextNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DocTextNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocTyp.Designer.vb">
+      <DependentUpon>DocTyp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DocTyp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FolderInput.Designer.vb">
+      <DependentUpon>FolderInput.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FolderInput.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImageToPDF.Designer.vb">
+      <DependentUpon>ImageToPDF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ImageToPDF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mandanten.Designer.vb">
+      <DependentUpon>Mandanten.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mandanten.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MsgAccess.Designer.vb">
+      <DependentUpon>MsgAccess.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MsgAccess.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Notiz.Designer.vb">
+      <DependentUpon>Notiz.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Notiz.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NotizListe.Designer.vb">
+      <DependentUpon>NotizListe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NotizListe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NotizNeu.Designer.vb">
+      <DependentUpon>NotizNeu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NotizNeu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintForm.Designer.vb">
+      <DependentUpon>PrintForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PrintForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProviderDataBase.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProviderDataBase.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ScanErgebnis.Designer.vb">
+      <DependentUpon>ScanErgebnis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ScanErgebnis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScanToDoc2.Designer.vb">
+      <DependentUpon>ScanToDoc2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ScanToDoc2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings.Designer.vb">
+      <DependentUpon>Settings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen1.Designer.vb">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Start.Designer.vb">
+      <DependentUpon>Start.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Start.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestForm.Designer.vb">
+      <DependentUpon>TestForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TestForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VorgaengeArchiv.Designer.vb">
+      <DependentUpon>VorgaengeArchiv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VorgaengeArchiv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VorgangNeu.Designer.vb">
+      <DependentUpon>VorgangNeu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VorgangNeu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vorlagen.Designer.vb">
+      <DependentUpon>Vorlagen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vorlagen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vorganege.Designer.vb">
+      <DependentUpon>Vorganege.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vorganege.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WiedervorlageListe.Designer.vb">
+      <DependentUpon>WiedervorlageListe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WiedervorlageListe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WiedervorlageNeu.Designer.vb">
+      <DependentUpon>WiedervorlageNeu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WiedervorlageNeu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_FreeDMS_StartDBDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_FreeDMS_StartDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_FreeDMS_StartDBDataSet.vb">
+      <DependentUpon>_FreeDMS_StartDBDataSet.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Ablage.resx">
+      <DependentUpon>Ablage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox1.resx">
+      <DependentUpon>AboutBox1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AkteEdit.resx">
+      <DependentUpon>AkteEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Akten.resx">
+      <DependentUpon>Akten.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Anschriften.resx">
+      <DependentUpon>Anschriften.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnschriftenZuordnung.resx">
+      <DependentUpon>AnschriftenZuordnung.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnschriftNeu.resx">
+      <DependentUpon>AnschriftNeu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DBNeu.resx">
+      <DependentUpon>DBNeu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocEdit.resx">
+      <DependentUpon>DocEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Docliste.resx">
+      <DependentUpon>Docliste.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocStatus.resx">
+      <DependentUpon>DocStatus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocTextNew.resx">
+      <DependentUpon>DocTextNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocTyp.resx">
+      <DependentUpon>DocTyp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FolderInput.resx">
+      <DependentUpon>FolderInput.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImageToPDF.resx">
+      <DependentUpon>ImageToPDF.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mandanten.resx">
+      <DependentUpon>Mandanten.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MsgAccess.resx">
+      <DependentUpon>MsgAccess.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notiz.resx">
+      <DependentUpon>Notiz.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NotizListe.resx">
+      <DependentUpon>NotizListe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NotizNeu.resx">
+      <DependentUpon>NotizNeu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintForm.resx">
+      <DependentUpon>PrintForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScanErgebnis.resx">
+      <DependentUpon>ScanErgebnis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScanToDoc2.resx">
+      <DependentUpon>ScanToDoc2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings.resx">
+      <DependentUpon>Settings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Start.resx">
+      <DependentUpon>Start.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestForm.resx">
+      <DependentUpon>TestForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VorgaengeArchiv.resx">
+      <DependentUpon>VorgaengeArchiv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VorgangNeu.resx">
+      <DependentUpon>VorgangNeu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vorlagen.resx">
+      <DependentUpon>Vorlagen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vorganege.resx">
+      <DependentUpon>Vorganege.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WiedervorlageListe.resx">
+      <DependentUpon>WiedervorlageListe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WiedervorlageNeu.resx">
+      <DependentUpon>WiedervorlageNeu.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="FreeDMS-Tab_TemporaryKey.pfx" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="ProviderDataBase.xsc">
+      <DependentUpon>ProviderDataBase.xsd</DependentUpon>
+    </None>
+    <None Include="ProviderDataBase.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProviderDataBase.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProviderDataBase.xss">
+      <DependentUpon>ProviderDataBase.xsd</DependentUpon>
+    </None>
+    <None Include="_FreeDMS_StartDBDataSet.xsc">
+      <DependentUpon>_FreeDMS_StartDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="_FreeDMS_StartDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_FreeDMS_StartDBDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_FreeDMS_StartDBDataSet.xss">
+      <DependentUpon>_FreeDMS_StartDBDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FreeDMS-Aux\FreeDMS-Aux.vbproj">
+      <Project>{7c7131fa-aeeb-4e93-b396-662c1fb697a9}</Project>
+      <Name>FreeDMS-Aux</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FreeDMS_Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="COPYING.LESSER.txt" />
+    <Content Include="COPYING.txt" />
+    <None Include="Resources\FreeDMS_Logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 und x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Outlook">
+      <Guid>{00062FFF-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>9</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
