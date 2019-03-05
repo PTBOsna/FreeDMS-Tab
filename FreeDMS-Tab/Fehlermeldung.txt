@@ -1,0 +1,165 @@
+Informationen über das Aufrufen von JIT-Debuggen
+anstelle dieses Dialogfelds finden Sie am Ende dieser Meldung.
+
+************** Ausnahmetext **************
+System.ArgumentOutOfRangeException: Das angegebene Argument liegt außerhalb des gültigen Wertebereichs.
+Parametername: value
+   bei System.Windows.Forms.DataGridView.set_FirstDisplayedScrollingRowIndex(Int32 value)
+   bei FreeDMS_Tab.Start.SetLastDGVRow() in H:\git-FreeDMS\FreeDMS-Tab\FreeDMS-Tab\Start.vb:Zeile 295.
+   bei FreeDMS_Tab.Start.TreeView1_AfterSelect(Object sender, TreeViewEventArgs e) in H:\git-FreeDMS\FreeDMS-Tab\FreeDMS-Tab\Start.vb:Zeile 525.
+   bei System.Windows.Forms.TreeView.OnAfterSelect(TreeViewEventArgs e)
+   bei System.Windows.Forms.TreeView.TvnSelected(NMTREEVIEW* nmtv)
+   bei System.Windows.Forms.TreeView.WmNotify(Message& m)
+   bei System.Windows.Forms.TreeView.WndProc(Message& m)
+   bei System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   bei System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   bei System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+************** Geladene Assemblys **************
+mscorlib
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.7.3324.0 built by: NET472REL1LAST_C.
+    CodeBase: file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll.
+----------------------------------------
+FreeDMS-Tab
+    Assembly-Version: 1.1.0.0.
+    Win32-Version: 1.01.0.0.
+    CodeBase: file:///D:/Program%20Files%20(x86)/FreeDMS_Tab/FreeDMS-Tab.exe.
+----------------------------------------
+Microsoft.VisualBasic
+    Assembly-Version: 10.0.0.0.
+    Win32-Version: 14.7.3056.0 built by: NET472REL1.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/Microsoft.VisualBasic/v4.0_10.0.0.0__b03f5f7f11d50a3a/Microsoft.VisualBasic.dll.
+----------------------------------------
+System
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.7.3353.0 built by: NET472REL1LAST_B.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System/v4.0_4.0.0.0__b77a5c561934e089/System.dll.
+----------------------------------------
+System.Core
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.7.3324.0 built by: NET472REL1LAST_C.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Core/v4.0_4.0.0.0__b77a5c561934e089/System.Core.dll.
+----------------------------------------
+System.Windows.Forms
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.7.3324.0 built by: NET472REL1LAST_C.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Windows.Forms/v4.0_4.0.0.0__b77a5c561934e089/System.Windows.Forms.dll.
+----------------------------------------
+System.Drawing
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.7.3056.0 built by: NET472REL1.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Drawing/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Drawing.dll.
+----------------------------------------
+System.Configuration
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.7.3056.0 built by: NET472REL1.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Configuration/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll.
+----------------------------------------
+System.Xml
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.7.3056.0 built by: NET472REL1.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Xml/v4.0_4.0.0.0__b77a5c561934e089/System.Xml.dll.
+----------------------------------------
+System.Runtime.Remoting
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.7.3056.0 built by: NET472REL1.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Runtime.Remoting/v4.0_4.0.0.0__b77a5c561934e089/System.Runtime.Remoting.dll.
+----------------------------------------
+FreeDMS-Aux
+    Assembly-Version: 1.0.0.0.
+    Win32-Version: 1.0.0.0.
+    CodeBase: file:///D:/Program%20Files%20(x86)/FreeDMS_Tab/FreeDMS-Aux.DLL.
+----------------------------------------
+OpenPop
+    Assembly-Version: 2.0.6.1120.
+    Win32-Version: 2.0.6.1120.
+    CodeBase: file:///D:/Program%20Files%20(x86)/FreeDMS_Tab/OpenPop.DLL.
+----------------------------------------
+System.Data
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.7.3260.0 built by: NET472REL1LAST_C.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_32/System.Data/v4.0_4.0.0.0__b77a5c561934e089/System.Data.dll.
+----------------------------------------
+System.Data.resources
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.7.3056.0 built by: NET472REL1.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Data.resources/v4.0_4.0.0.0_de_b77a5c561934e089/System.Data.resources.dll.
+----------------------------------------
+System.Deployment
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.7.3056.0 built by: NET472REL1.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Deployment/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Deployment.dll.
+----------------------------------------
+System.Deployment.resources
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.7.3056.0 built by: NET472REL1.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Deployment.resources/v4.0_4.0.0.0_de_b03f5f7f11d50a3a/System.Deployment.resources.dll.
+----------------------------------------
+System.Windows.Forms.resources
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.7.3056.0 built by: NET472REL1.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Windows.Forms.resources/v4.0_4.0.0.0_de_b77a5c561934e089/System.Windows.Forms.resources.dll.
+----------------------------------------
+System.Data.DataSetExtensions
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.7.3056.0 built by: NET472REL1.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Data.DataSetExtensions/v4.0_4.0.0.0__b77a5c561934e089/System.Data.DataSetExtensions.dll.
+----------------------------------------
+System.Numerics
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.7.3056.0 built by: NET472REL1.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Numerics/v4.0_4.0.0.0__b77a5c561934e089/System.Numerics.dll.
+----------------------------------------
+mscorlib.resources
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.7.3056.0 built by: NET472REL1.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/mscorlib.resources/v4.0_4.0.0.0_de_b77a5c561934e089/mscorlib.resources.dll.
+----------------------------------------
+Accessibility
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.7.3056.0 built by: NET472REL1.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/Accessibility/v4.0_4.0.0.0__b03f5f7f11d50a3a/Accessibility.dll.
+----------------------------------------
+System.Web
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.7.3282.0 built by: NET472REL1LAST_B.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_32/System.Web/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Web.dll.
+----------------------------------------
+System.Transactions
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.7.3221.0 built by: NET472REL1LAST_C.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_32/System.Transactions/v4.0_4.0.0.0__b77a5c561934e089/System.Transactions.dll.
+----------------------------------------
+System.EnterpriseServices
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.7.3056.0 built by: NET472REL1.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_32/System.EnterpriseServices/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.EnterpriseServices.dll.
+----------------------------------------
+Microsoft.mshtml
+    Assembly-Version: 7.0.3300.0.
+    Win32-Version: 7.0.3300.0.
+    CodeBase: file:///C:/WINDOWS/assembly/GAC/Microsoft.mshtml/7.0.3300.0__b03f5f7f11d50a3a/Microsoft.mshtml.dll.
+----------------------------------------
+itextsharp
+    Assembly-Version: 5.5.13.0.
+    Win32-Version: 5.5.13.0.
+    CodeBase: file:///D:/Program%20Files%20(x86)/FreeDMS_Tab/itextsharp.DLL.
+----------------------------------------
+
+************** JIT-Debuggen **************
+Um das JIT-Debuggen (Just-In-Time) zu aktivieren, muss in der
+Konfigurationsdatei der Anwendung oder des Computers
+(machine.config) der jitDebugging-Wert im Abschnitt system.windows.forms festgelegt werden.
+Die Anwendung muss mit aktiviertem Debuggen kompiliert werden.
+
+Zum Beispiel:
+
+<configuration>
+    <system.windows.forms jitDebugging="true" />
+</configuration>
+
+Wenn das JIT-Debuggen aktiviert ist, werden alle nicht behandelten
+Ausnahmen an den JIT-Debugger gesendet, der auf dem
+Computer registriert ist, und nicht in diesem Dialogfeld behandelt.
