@@ -290,12 +290,13 @@ Public Class Start
             DokumenteSQLDataGridView.CurrentCell = DokumenteSQLDataGridView.Rows(row).Cells(0)
             DokumenteSQLDataGridView.Rows(row).Selected = True
         End If
-        Dim row2 As Integer = DokumenteBindingSource.Count - 1
-        If row2 > 0 Then
-            DokumenteDataGridView.FirstDisplayedScrollingRowIndex = row2
-            DokumenteDataGridView.CurrentCell = DokumenteDataGridView.Rows(row2).Cells(1)
-            DokumenteDataGridView.Rows(row2).Selected = True
-        End If
+        'Löst Fehler aus, kann aber entfallen, da in Journalansicht keine Rücksetzung erforderlich ist
+        'Dim row2 As Integer = DokumenteBindingSource.Count - 1
+        'If row2 > 0 Then
+        '    DokumenteDataGridView.FirstDisplayedScrollingRowIndex = row2
+        '    DokumenteDataGridView.CurrentCell = DokumenteDataGridView.Rows(row2).Cells(1)
+        '    DokumenteDataGridView.Rows(row2).Selected = True
+        'End If
     End Sub
     ''' <summary>
     ''' Seitenauswahl per Tab
