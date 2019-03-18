@@ -50,14 +50,19 @@ Partial Class DocEdit
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.IstAnlageTextBox = New System.Windows.Forms.TextBox()
+        Me.DokumenteBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me._FreeDMS_StartDBDataSet = New FreeDMS_Tab._FreeDMS_StartDBDataSet()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.EmpfaengerTextBox = New System.Windows.Forms.TextBox()
         Me.AbsenderTextBox = New System.Windows.Forms.TextBox()
         Me.txtVorgang = New System.Windows.Forms.TextBox()
+        Me.VorgaengeBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.txtAkte = New System.Windows.Forms.TextBox()
+        Me.AktenBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.txtMandant = New System.Windows.Forms.TextBox()
+        Me.MandantBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.cbVorgang = New System.Windows.Forms.ComboBox()
+        Me.VorgaengeBindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
         Me.VorgangTextBox = New System.Windows.Forms.TextBox()
         Me.AkteTextBox = New System.Windows.Forms.TextBox()
         Me.MandantTextBox = New System.Windows.Forms.TextBox()
@@ -66,12 +71,19 @@ Partial Class DocEdit
         Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.cbStatus = New System.Windows.Forms.ComboBox()
+        Me.StatusBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.cbTyp = New System.Windows.Forms.ComboBox()
+        Me.TypBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.cbAblage = New System.Windows.Forms.ComboBox()
+        Me.AblageBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.cbEmpfaenger = New System.Windows.Forms.ComboBox()
+        Me.AnschriftenBindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
         Me.cbAkte = New System.Windows.Forms.ComboBox()
+        Me.AktenBindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
         Me.cbAbsender = New System.Windows.Forms.ComboBox()
+        Me.AnschriftenBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.cbMandant = New System.Windows.Forms.ComboBox()
+        Me.MandantBindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
         Me.GeaendertTextBox = New System.Windows.Forms.TextBox()
         Me.AufgenommenTextBox = New System.Windows.Forms.TextBox()
         Me.DokDatumTextBox = New System.Windows.Forms.TextBox()
@@ -107,19 +119,9 @@ Partial Class DocEdit
         Me.AnschriftenTableAdapter = New FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.AnschriftenTableAdapter()
         Me.StatusTableAdapter = New FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.StatusTableAdapter()
         Me.TypTableAdapter = New FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.TypTableAdapter()
-        Me.DokumenteBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.VorgaengeBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.AktenBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.MandantBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.VorgaengeBindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
-        Me.StatusBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.TypBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.AblageBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.AnschriftenBindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
-        Me.AktenBindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
-        Me.AnschriftenBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.MandantBindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
         Me.TableAdapterManager = New FreeDMS_Tab._FreeDMS_StartDBDataSetTableAdapters.TableAdapterManager()
+        Me.TabPage4 = New System.Windows.Forms.TabPage()
+        Me.KommentarTextBox1 = New System.Windows.Forms.TextBox()
         VorgangLabel3 = New System.Windows.Forms.Label()
         AkteLabel1 = New System.Windows.Forms.Label()
         MandantLabel1 = New System.Windows.Forms.Label()
@@ -146,16 +148,8 @@ Partial Class DocEdit
         BearbVermerkLabel = New System.Windows.Forms.Label()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.Panel1.SuspendLayout()
-        CType(Me._FreeDMS_StartDBDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.FlowLayoutPanel1.SuspendLayout()
-        Me.TabControl1.SuspendLayout()
-        Me.TabPage1.SuspendLayout()
-        Me.TabPage2.SuspendLayout()
-        Me.TabPage3.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Panel2.SuspendLayout()
-        Me.Panel3.SuspendLayout()
         CType(Me.DokumenteBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me._FreeDMS_StartDBDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.VorgaengeBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.AktenBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.MandantBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -167,6 +161,15 @@ Partial Class DocEdit
         CType(Me.AktenBindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.AnschriftenBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.MandantBindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.FlowLayoutPanel1.SuspendLayout()
+        Me.TabControl1.SuspendLayout()
+        Me.TabPage1.SuspendLayout()
+        Me.TabPage2.SuspendLayout()
+        Me.TabPage3.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel2.SuspendLayout()
+        Me.Panel3.SuspendLayout()
+        Me.TabPage4.SuspendLayout()
         Me.SuspendLayout()
         '
         'VorgangLabel3
@@ -481,6 +484,11 @@ Partial Class DocEdit
         Me.IstAnlageTextBox.Size = New System.Drawing.Size(57, 20)
         Me.IstAnlageTextBox.TabIndex = 71
         '
+        'DokumenteBindingSource
+        '
+        Me.DokumenteBindingSource.DataMember = "Dokumente"
+        Me.DokumenteBindingSource.DataSource = Me._FreeDMS_StartDBDataSet
+        '
         '_FreeDMS_StartDBDataSet
         '
         Me._FreeDMS_StartDBDataSet.DataSetName = "_FreeDMS_StartDBDataSet"
@@ -519,6 +527,11 @@ Partial Class DocEdit
         Me.txtVorgang.Size = New System.Drawing.Size(146, 20)
         Me.txtVorgang.TabIndex = 67
         '
+        'VorgaengeBindingSource
+        '
+        Me.VorgaengeBindingSource.DataMember = "Vorgaenge"
+        Me.VorgaengeBindingSource.DataSource = Me._FreeDMS_StartDBDataSet
+        '
         'txtAkte
         '
         Me.txtAkte.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.AktenBindingSource, "Akte", True))
@@ -527,6 +540,11 @@ Partial Class DocEdit
         Me.txtAkte.Size = New System.Drawing.Size(146, 20)
         Me.txtAkte.TabIndex = 67
         '
+        'AktenBindingSource
+        '
+        Me.AktenBindingSource.DataMember = "Akten"
+        Me.AktenBindingSource.DataSource = Me._FreeDMS_StartDBDataSet
+        '
         'txtMandant
         '
         Me.txtMandant.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.MandantBindingSource, "Mandant", True))
@@ -534,6 +552,11 @@ Partial Class DocEdit
         Me.txtMandant.Name = "txtMandant"
         Me.txtMandant.Size = New System.Drawing.Size(146, 20)
         Me.txtMandant.TabIndex = 66
+        '
+        'MandantBindingSource
+        '
+        Me.MandantBindingSource.DataMember = "Mandant"
+        Me.MandantBindingSource.DataSource = Me._FreeDMS_StartDBDataSet
         '
         'cbVorgang
         '
@@ -547,6 +570,11 @@ Partial Class DocEdit
         Me.cbVorgang.Size = New System.Drawing.Size(145, 21)
         Me.cbVorgang.TabIndex = 65
         Me.cbVorgang.ValueMember = "id"
+        '
+        'VorgaengeBindingSource1
+        '
+        Me.VorgaengeBindingSource1.DataMember = "Vorgaenge"
+        Me.VorgaengeBindingSource1.DataSource = Me._FreeDMS_StartDBDataSet
         '
         'VorgangTextBox
         '
@@ -618,6 +646,11 @@ Partial Class DocEdit
         Me.cbStatus.TabIndex = 54
         Me.cbStatus.ValueMember = "id"
         '
+        'StatusBindingSource
+        '
+        Me.StatusBindingSource.DataMember = "Status"
+        Me.StatusBindingSource.DataSource = Me._FreeDMS_StartDBDataSet
+        '
         'cbTyp
         '
         Me.cbTyp.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Append
@@ -631,6 +664,11 @@ Partial Class DocEdit
         Me.cbTyp.Size = New System.Drawing.Size(200, 21)
         Me.cbTyp.TabIndex = 53
         Me.cbTyp.ValueMember = "id"
+        '
+        'TypBindingSource
+        '
+        Me.TypBindingSource.DataMember = "Typ"
+        Me.TypBindingSource.DataSource = Me._FreeDMS_StartDBDataSet
         '
         'cbAblage
         '
@@ -646,6 +684,11 @@ Partial Class DocEdit
         Me.cbAblage.TabIndex = 52
         Me.cbAblage.ValueMember = "Nummer"
         '
+        'AblageBindingSource
+        '
+        Me.AblageBindingSource.DataMember = "Ablage"
+        Me.AblageBindingSource.DataSource = Me._FreeDMS_StartDBDataSet
+        '
         'cbEmpfaenger
         '
         Me.cbEmpfaenger.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Append
@@ -660,6 +703,11 @@ Partial Class DocEdit
         Me.cbEmpfaenger.TabIndex = 51
         Me.cbEmpfaenger.ValueMember = "id"
         '
+        'AnschriftenBindingSource1
+        '
+        Me.AnschriftenBindingSource1.DataMember = "Anschriften"
+        Me.AnschriftenBindingSource1.DataSource = Me._FreeDMS_StartDBDataSet
+        '
         'cbAkte
         '
         Me.cbAkte.BackColor = System.Drawing.Color.WhiteSmoke
@@ -672,6 +720,11 @@ Partial Class DocEdit
         Me.cbAkte.Size = New System.Drawing.Size(145, 21)
         Me.cbAkte.TabIndex = 50
         Me.cbAkte.ValueMember = "id"
+        '
+        'AktenBindingSource1
+        '
+        Me.AktenBindingSource1.DataMember = "Akten"
+        Me.AktenBindingSource1.DataSource = Me._FreeDMS_StartDBDataSet
         '
         'cbAbsender
         '
@@ -687,6 +740,11 @@ Partial Class DocEdit
         Me.cbAbsender.TabIndex = 48
         Me.cbAbsender.ValueMember = "id"
         '
+        'AnschriftenBindingSource
+        '
+        Me.AnschriftenBindingSource.DataMember = "Anschriften"
+        Me.AnschriftenBindingSource.DataSource = Me._FreeDMS_StartDBDataSet
+        '
         'cbMandant
         '
         Me.cbMandant.BackColor = System.Drawing.Color.WhiteSmoke
@@ -699,6 +757,11 @@ Partial Class DocEdit
         Me.cbMandant.Size = New System.Drawing.Size(145, 21)
         Me.cbMandant.TabIndex = 47
         Me.cbMandant.ValueMember = "id"
+        '
+        'MandantBindingSource1
+        '
+        Me.MandantBindingSource1.DataMember = "Mandant"
+        Me.MandantBindingSource1.DataSource = Me._FreeDMS_StartDBDataSet
         '
         'GeaendertTextBox
         '
@@ -830,6 +893,7 @@ Partial Class DocEdit
         Me.TabControl1.Controls.Add(Me.TabPage1)
         Me.TabControl1.Controls.Add(Me.TabPage2)
         Me.TabControl1.Controls.Add(Me.TabPage3)
+        Me.TabControl1.Controls.Add(Me.TabPage4)
         Me.TabControl1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TabControl1.Location = New System.Drawing.Point(523, 52)
         Me.TabControl1.Name = "TabControl1"
@@ -998,66 +1062,6 @@ Partial Class DocEdit
         '
         Me.TypTableAdapter.ClearBeforeFill = True
         '
-        'DokumenteBindingSource
-        '
-        Me.DokumenteBindingSource.DataMember = "Dokumente"
-        Me.DokumenteBindingSource.DataSource = Me._FreeDMS_StartDBDataSet
-        '
-        'VorgaengeBindingSource
-        '
-        Me.VorgaengeBindingSource.DataMember = "Vorgaenge"
-        Me.VorgaengeBindingSource.DataSource = Me._FreeDMS_StartDBDataSet
-        '
-        'AktenBindingSource
-        '
-        Me.AktenBindingSource.DataMember = "Akten"
-        Me.AktenBindingSource.DataSource = Me._FreeDMS_StartDBDataSet
-        '
-        'MandantBindingSource
-        '
-        Me.MandantBindingSource.DataMember = "Mandant"
-        Me.MandantBindingSource.DataSource = Me._FreeDMS_StartDBDataSet
-        '
-        'VorgaengeBindingSource1
-        '
-        Me.VorgaengeBindingSource1.DataMember = "Vorgaenge"
-        Me.VorgaengeBindingSource1.DataSource = Me._FreeDMS_StartDBDataSet
-        '
-        'StatusBindingSource
-        '
-        Me.StatusBindingSource.DataMember = "Status"
-        Me.StatusBindingSource.DataSource = Me._FreeDMS_StartDBDataSet
-        '
-        'TypBindingSource
-        '
-        Me.TypBindingSource.DataMember = "Typ"
-        Me.TypBindingSource.DataSource = Me._FreeDMS_StartDBDataSet
-        '
-        'AblageBindingSource
-        '
-        Me.AblageBindingSource.DataMember = "Ablage"
-        Me.AblageBindingSource.DataSource = Me._FreeDMS_StartDBDataSet
-        '
-        'AnschriftenBindingSource1
-        '
-        Me.AnschriftenBindingSource1.DataMember = "Anschriften"
-        Me.AnschriftenBindingSource1.DataSource = Me._FreeDMS_StartDBDataSet
-        '
-        'AktenBindingSource1
-        '
-        Me.AktenBindingSource1.DataMember = "Akten"
-        Me.AktenBindingSource1.DataSource = Me._FreeDMS_StartDBDataSet
-        '
-        'AnschriftenBindingSource
-        '
-        Me.AnschriftenBindingSource.DataMember = "Anschriften"
-        Me.AnschriftenBindingSource.DataSource = Me._FreeDMS_StartDBDataSet
-        '
-        'MandantBindingSource1
-        '
-        Me.MandantBindingSource1.DataMember = "Mandant"
-        Me.MandantBindingSource1.DataSource = Me._FreeDMS_StartDBDataSet
-        '
         'TableAdapterManager
         '
         Me.TableAdapterManager.AblageTableAdapter = Nothing
@@ -1078,6 +1082,27 @@ Partial Class DocEdit
         Me.TableAdapterManager.VorlagenTableAdapter = Nothing
         Me.TableAdapterManager.wiedervorlageTableAdapter = Nothing
         '
+        'TabPage4
+        '
+        Me.TabPage4.Controls.Add(Me.KommentarTextBox1)
+        Me.TabPage4.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage4.Name = "TabPage4"
+        Me.TabPage4.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage4.Size = New System.Drawing.Size(550, 652)
+        Me.TabPage4.TabIndex = 3
+        Me.TabPage4.Text = "Kommentar"
+        Me.TabPage4.UseVisualStyleBackColor = True
+        '
+        'KommentarTextBox1
+        '
+        Me.KommentarTextBox1.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.DokumenteBindingSource, "Kommentar", True))
+        Me.KommentarTextBox1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.KommentarTextBox1.Location = New System.Drawing.Point(3, 3)
+        Me.KommentarTextBox1.Multiline = True
+        Me.KommentarTextBox1.Name = "KommentarTextBox1"
+        Me.KommentarTextBox1.Size = New System.Drawing.Size(544, 646)
+        Me.KommentarTextBox1.TabIndex = 1
+        '
         'DocEdit
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1091,18 +1116,8 @@ Partial Class DocEdit
         Me.TableLayoutPanel1.PerformLayout()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
-        CType(Me._FreeDMS_StartDBDataSet, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.FlowLayoutPanel1.ResumeLayout(False)
-        Me.TabControl1.ResumeLayout(False)
-        Me.TabPage1.ResumeLayout(False)
-        Me.TabPage2.ResumeLayout(False)
-        Me.TabPage2.PerformLayout()
-        Me.TabPage3.ResumeLayout(False)
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Panel2.ResumeLayout(False)
-        Me.Panel2.PerformLayout()
-        Me.Panel3.ResumeLayout(False)
         CType(Me.DokumenteBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me._FreeDMS_StartDBDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.VorgaengeBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.AktenBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.MandantBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1114,6 +1129,18 @@ Partial Class DocEdit
         CType(Me.AktenBindingSource1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.AnschriftenBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.MandantBindingSource1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.FlowLayoutPanel1.ResumeLayout(False)
+        Me.TabControl1.ResumeLayout(False)
+        Me.TabPage1.ResumeLayout(False)
+        Me.TabPage2.ResumeLayout(False)
+        Me.TabPage2.PerformLayout()
+        Me.TabPage3.ResumeLayout(False)
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout()
+        Me.Panel3.ResumeLayout(False)
+        Me.TabPage4.ResumeLayout(False)
+        Me.TabPage4.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -1191,4 +1218,6 @@ Partial Class DocEdit
     Friend WithEvents IstAnlageTextBox As TextBox
     Friend WithEvents Panel3 As Panel
     Friend WithEvents BtImageToPDF As Button
+    Friend WithEvents TabPage4 As TabPage
+    Friend WithEvents KommentarTextBox1 As TextBox
 End Class
