@@ -55,7 +55,6 @@ Public Class FolderInput
     Dim tempOCRString As String
     Private Sub FolderInput_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'TODO: Diese Codezeile lädt Daten in die Tabelle "_FreeDMS_StartDBDataSet.Anlagen". Sie können sie bei Bedarf verschieben oder entfernen.
-        Me.AnlagenTableAdapter.Fill(Me._FreeDMS_StartDBDataSet.Anlagen)
         'selDB für Vorlagen erforderlich, da Funktion  "Dim vorlagen = From p In _FreeDMS_StartDBDataSet.Vorlagen" sonst nicht funktioniert!
         'für die Anlagenverarbeitung ist die DokID erforderlich. Daher selDB ebenfalls für DokumenteTableAdapter erforderlich
         Dim selDB = New FreeDMS_Aux.FreeDMS.DbHandling
@@ -66,6 +65,7 @@ Public Class FolderInput
         DokumenteTableAdapter.Fill(_FreeDMS_StartDBDataSet.Dokumente)
         VorlagenTableAdapter.Fill(_FreeDMS_StartDBDataSet.Vorlagen)
         AnlagenTableAdapter.Fill(_FreeDMS_StartDBDataSet.Anlagen)
+
 
         DokumenteBindingSource.Filter = "id=0"
         txtAendern.Text = "Eingangsordner: " & InputOrdner
