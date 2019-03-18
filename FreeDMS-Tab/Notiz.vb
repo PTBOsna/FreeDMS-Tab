@@ -6,22 +6,15 @@ Public Class Notiz
         id = openArgs
     End Sub
     Private Sub Notiz_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        'TODO: Diese Codezeile lädt Daten in die Tabelle "_FreeDMS_StartDBDataSet.Dokumente". Sie können sie bei Bedarf verschieben oder entfernen.
-        Me.DokumenteTableAdapter.Fill(Me._FreeDMS_StartDBDataSet.Dokumente)
-        'TODO: Diese Codezeile lädt Daten in die Tabelle "_FreeDMS_StartDBDataSet.Akten". Sie können sie bei Bedarf verschieben oder entfernen.
-        Me.AktenTableAdapter.Fill(Me._FreeDMS_StartDBDataSet.Akten)
-        'TODO: Diese Codezeile lädt Daten in die Tabelle "_FreeDMS_StartDBDataSet.sqlVorgangAkte". Sie können sie bei Bedarf verschieben oder entfernen.
-        Me.SqlVorgangAkteTableAdapter.Fill(Me._FreeDMS_StartDBDataSet.sqlVorgangAkte)
-        'TODO: Diese Codezeile lädt Daten in die Tabelle "_FreeDMS_StartDBDataSet.sqlVorgangAkte". Sie können sie bei Bedarf verschieben oder entfernen.
-        Me.SqlVorgangAkteTableAdapter.Fill(Me._FreeDMS_StartDBDataSet.sqlVorgangAkte)
         ''TODO: Diese Codezeile lädt Daten in die Tabelle "_FreeDMS_StartDBDataSet.Dokumente". Sie können sie bei Bedarf verschieben oder entfernen.
         'Me.DokumenteTableAdapter.Fill(Me._FreeDMS_StartDBDataSet.Dokumente)
-        ''TODO: Diese Codezeile lädt Daten in die Tabelle "_FreeDMS_StartDBDataSet.Vorgaenge". Sie können sie bei Bedarf verschieben oder entfernen.
-        'Me.VorgaengeTableAdapter.Fill(Me._FreeDMS_StartDBDataSet.Vorgaenge)
         ''TODO: Diese Codezeile lädt Daten in die Tabelle "_FreeDMS_StartDBDataSet.Akten". Sie können sie bei Bedarf verschieben oder entfernen.
         'Me.AktenTableAdapter.Fill(Me._FreeDMS_StartDBDataSet.Akten)
-        ''TODO: Diese Codezeile lädt Daten in die Tabelle "_FreeDMS_StartDBDataSet.notiz". Sie können sie bei Bedarf verschieben oder entfernen.
-        'Me.NotizTableAdapter.Fill(Me._FreeDMS_StartDBDataSet.notiz)
+        ''TODO: Diese Codezeile lädt Daten in die Tabelle "_FreeDMS_StartDBDataSet.sqlVorgangAkte". Sie können sie bei Bedarf verschieben oder entfernen.
+        'Me.SqlVorgangAkteTableAdapter.Fill(Me._FreeDMS_StartDBDataSet.sqlVorgangAkte)
+        ''TODO: Diese Codezeile lädt Daten in die Tabelle "_FreeDMS_StartDBDataSet.sqlVorgangAkte". Sie können sie bei Bedarf verschieben oder entfernen.
+        'Me.SqlVorgangAkteTableAdapter.Fill(Me._FreeDMS_StartDBDataSet.sqlVorgangAkte)
+
         NotizBindingSource.Filter = "id=" & id
     End Sub
 
